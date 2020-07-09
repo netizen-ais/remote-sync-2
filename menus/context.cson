@@ -1,0 +1,23 @@
+'context-menu':
+  'atom-text-editor, .tool-panel.tree-view .file':[
+    label: 'Remote Sync 2',
+    submenu:[
+      {label: 'Upload File', command: 'remote-sync2:upload-file'}
+      {label: 'Download File', command: 'remote-sync2:download-file'}
+      {label: 'Diff File', command: 'remote-sync2:diff-file'}
+      {label: 'Delete File', command: 'remote-sync2:delete-file'}
+      {label: 'Monitor File (Upload on External Save)', command: 'remote-sync2:monitor-file'}
+    ]
+  ]
+
+  '.tool-panel.tree-view .header.list-item':[
+    label: 'Remote Sync 2',
+    submenu:[
+      {label: 'Configure', command: 'remote-sync2:configure'}
+      {label: 'Upload Folder', command: 'remote-sync2:upload-folder'}
+      {label: 'Upload Folder Change', command: 'remote-sync2:upload-git-change'}
+      {label: 'Download Folder', command: 'remote-sync2:download-folder'}
+      {label: 'Diff Folder', command: 'remote-sync2:diff-folder'}
+      {label: 'Delete Folder', command: 'remote-sync2:delete-folder'}
+    ]
+  ]
