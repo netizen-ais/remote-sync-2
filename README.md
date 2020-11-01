@@ -205,10 +205,6 @@ The `.remote-sync.json` in your project root will use these options:
       "keyfile": "/home/vagrant/.ssh/aws.pem",
       "passphrase": "your_passphrase",
       "target": "/home/vagrant/dirname/subdirname_one",
-      "ignore": [
-        ".remote-sync.json",
-        ".git/**"
-      ]
     },
     {
       "transport": "ftp",
@@ -217,10 +213,6 @@ The `.remote-sync.json` in your project root will use these options:
       "username": "vagrant",
       "password": "vagrant",
       "target": "/home/vagrant/dirname/subdirname_two",
-      "ignore": [
-        ".remote-sync.json",
-        ".git/**"
-      ]
     }
   ]
 }
