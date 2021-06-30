@@ -4,7 +4,9 @@ Use SFTP and FTP features inside Atom, having the ability to upload and download
 
 Remote Sync PRO is a fork of the remote-sync project which was abandoned in 2016. Remote Sync PRO fixes bugs and compatibility issues present in remote-sync, and will be bringing new features in the near future.
 
-Remote Sync 2 is a fork of the remote-sync-pro project which seems to be unmaintaied since 2018.
+Remote Sync 2 is a fork of the remote-sync-pro project which seems to be unmaintaied since 2018
+NOTE: I've created this fork just to fix some annoyances or malfunctions that affected my own use cases, but published it just in case my patches were helpful to any other devs.
+I've really a very limited ammount of time to spend in it and I'm very sorry about that. Any help would be highly appreciated.
 
 ## New
 
